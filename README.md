@@ -23,3 +23,12 @@ With the python environment and all dependencies installed, run in the command l
 
 >python waze-real-time.py &
 
+
+To initialize the front-end just:
+
+>python front-end/dash_app.py 
+
+Or real-time:
+
+>python front-end/dash_app-real-time.py 
+
