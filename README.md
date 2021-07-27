@@ -11,7 +11,7 @@
 > <sup>1</sup> Centro de Matemática, Computação e Cognição (CMCC), Universidade Federal do ABC (UFABC), Rua Arcturus, 03. Jardim Antares, São Bernardo do Campo, CEP 09606-070, SP, Brasil.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/bruAristimunha/fgv-bid-accident/master/dash_01.png"> 
+<img src="https://raw.githubusercontent.com/bruAristimunha/fgv-bid-accident/master/figures/dash_01.png"> 
 </p>
 
 <p align="center">
@@ -26,7 +26,7 @@
 > **Abstract:** This project collects real-time Waze alerts and jams data and estimates a probability of an accident having victims. Before executing, we need to add the file "polygon.json" given by FGV, to the data folder. This file has sensitive information which can't be shared publicly. The result was saved to a CSV, which will be used in the front-end application. This CSV is updated every minute, registering the accident alerts that occurred in the last ten minutes.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/bruAristimunha/fgv-bid-accident/master/diagrama_relatorio.png"><br></br>Machine Learning Pipeline developed.</p>
+<img src="https://raw.githubusercontent.com/bruAristimunha/fgv-bid-accident/master/figures/diagrama_relatorio.png"><br></br>Machine Learning Pipeline developed.</p>
 
 --------------------
 
