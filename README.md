@@ -28,6 +28,11 @@
 <p align="center">
 <img src="https://raw.githubusercontent.com/bruAristimunha/fgv-bid-accident/master/figures/diagrama_relatorio.png"><br></br>Machine Learning Pipeline developed.</p>
 
+
+
+*CREDENCIAL.*
+
+
 --------------------
 
 ## Pre-requisite for Reproduction
@@ -54,11 +59,16 @@ Before executing, we need to add the file "polygon.json", given by FGV, to the d
 python waze-real-time.py &
 ```
 
+*O QUE PRECISA PARA COLOCAR A CREDENCIAL WAZE.*
+
 With the back-end application running, after a time of alert collection and traffic jam (e.g. 30 min), you can run the front-end application in real time:
 
 ```
 python front-end/dash_app-real-time.py  
 ```
+
+*O QUE PRECISA PARA COLOCAR A CREDENCIAL ATHENA.*
+
 
 If you have access to FGV's historical database, you can still run the historical base to the cities of São Paulo, Quito, Lima, Xalapa, and Montevideo. 
 
