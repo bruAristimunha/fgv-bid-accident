@@ -63,7 +63,7 @@ Dump the return to the data folder.
 You can run the front-end application in real-time. 
 
 ```bash
-python front-end/real_time.py  
+python real_time.py  
 ```
 
 The back-end application will run at the start with the front-end application.
