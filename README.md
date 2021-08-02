@@ -51,28 +51,35 @@ pip install -r requirements.txt
 
 ----
 
-## Run aplication
+## Run application
 
-Before executing, we need to add the file "polygon.json", given by FGV, to the data folder. This file has sensitive information which can't be shared publicly. With the python environment and all dependencies installed, run in the command line:
-
-```
-python waze-real-time.py &
-```
-
-*O QUE PRECISA PARA COLOCAR A CREDENCIAL WAZE.*
-
-With the back-end application running, after a time of alert collection and traffic jam (e.g. 30 min), you can run the front-end application in real time:
-
-```
-python front-end/dash_app-real-time.py  
+Before executing, we need to add the file "polygon.json", given by FGV, to the data folder `data/polygon.json. This file has sensitive information which can't be shared publicly. If you have access to FGV's Protheus server, just run the following SQL command:
+```SQL
+select * from polygon.json
 ```
 
-*O QUE PRECISA PARA COLOCAR A CREDENCIAL ATHENA.*
+Dump the return to the data folder. 
 
+You can run the front-end application in real-time. 
 
-If you have access to FGV's historical database, you can still run the historical base to the cities of São Paulo, Quito, Lima, Xalapa, and Montevideo. 
-
+```bash
+python front-end/real_time.py  
 ```
+
+The back-end application will run at the start with the front-end application.
+The update will happen after a time of alert collection and traffic jam (e.g. 30 min).
+
+---------------
+
+If you have access to FGV's historical database, follow the instructions contained in the training [README.md](training/README.md) to download the entire historical base.
+
+```bash
+python training/download-process-generate.py
+```
+
+After this, just run:
+
+```bash
 python front-end/dash_app.py 
 ```
 

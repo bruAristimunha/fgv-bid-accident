@@ -1,0 +1,26 @@
+[
+   {
+      "city_name":"Sao Paulo 1",
+      "country_name":"Brasil",
+      "url_base":"https://world-georss.waze.com/rtserver/web/TGeoRSS?format:JSON&types:traffic%2Calerts%2Cirregularities&tk:ccp_partner&ccp_partner_name:Fundacao+Getulio+Vargas&polygon:",
+      "polygon":"-46.89388,-23.65469;-46.8972,-23.79037;-46.32591,-23.791;-46.32865,-23.64431;-46.89388,-23.65469",
+      "polygon_slug":"7_old",
+      "active":"1"
+   },
+   {
+      "city_name":"Sao Paulo 2",
+      "country_name":"Brasil",
+      "url_base":"https://world-georss.waze.com/rtserver/web/TGeoRSS?format:JSON&types:traffic%2Calerts%2Cirregularities&tk:ccp_partner&ccp_partner_name:Fundacao+Getulio+Vargas&polygon:",
+      "polygon":"-46.9344,-23.4539;-46.91986,-23.55706;-46.27304,-23.52685;-46.30119,-23.35991;-46.9344,-23.4539",
+      "polygon_slug":"8_old",
+      "active":"1"
+   },
+   {
+      "city_name":"Sao Paulo 3",
+      "country_name":"Brasil",
+      "url_base":"https://world-georss.waze.com/rtserver/web/TGeoRSS?format:JSON&types:traffic%2Calerts%2Cirregularities&tk:ccp_partner&ccp_partner_name:Fundacao+Getulio+Vargas&polygon:",
+      "polygon":"-46.2656,-23.52821;-46.92789,-23.5558;-46.90063,-23.65647;-46.31814,-23.64391;-46.2656,-23.52821",
+      "polygon_slug":"9_old",
+      "active":"1"
+   }
+]
